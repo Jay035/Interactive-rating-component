@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+LIVE SITE https://jay035.github.io/Interactive-rating-component/
+
 ![Design preview for the Interactive rating component coding challenge](./src/assets/desktop-preview.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
