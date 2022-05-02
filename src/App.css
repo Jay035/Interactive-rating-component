@@ -24,14 +24,14 @@ body{
   color:  var(--Light-Grey);
   font-size: 13px;
   font-family: 'Overpass', sans-serif;
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .container{
   background: linear-gradient(120deg, var(--Dark-Blue), var(--Very-Dark-Blue));
   padding: 1.8rem 1.2rem;
   width: 90%;
-  max-width: 400px;
+  max-width: 500px;
   margin-inline: auto;
   border-radius: 10px;
 }
@@ -64,11 +64,15 @@ h1{
 .ratings{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin-inline: auto;
 }
 
 .ratings > button{
   background-color: rgba(62, 70, 80, 0.5);
-  width: 34px;
+  width: 40px;
+  height: 40px;
 }
 
 .ratings button:focus{
@@ -82,7 +86,7 @@ button{
   padding: .8em 0;
   background-color: var(--Orange);
   transition: all 0.3s ease-in-out;
-  border-radius: 30px;
+  border-radius: 40px;
   color: var(--Light-Grey);
   letter-spacing: 2px;
   font-size: 12px;
@@ -131,8 +135,11 @@ a{
 }
 
 @media screen and (min-width: 768px) {
+  .star{
+    margin-bottom: 1.5em;
+  }
   .star img{
-    width: 14px;
+    width: 16px;
   }
 
   .question,
